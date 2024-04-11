@@ -37,7 +37,8 @@ Branch Code: ${branchA.getBranchCode()}`);
  console.log(`Branch Name: ${branchB.getBranchInfo()} 
 Branch Code: ${branchB.getBranchCode()}`);
 
-//check if they reference the dsame
+//check if they reference the same instance
+console.log(branchA === branchB ? 'Both variables reference the same instance': 'The variables do not reference the same instance');
 
 // 3. In the `BankBranch` class:
 //    - Create a constructor that takes `branchInfo` as a parameter.
