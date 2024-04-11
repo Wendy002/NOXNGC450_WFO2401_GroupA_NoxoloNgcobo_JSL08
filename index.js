@@ -26,8 +26,19 @@ class BankBranch {
     // end of step 4
 
 
-
 };
+
+ //usage
+ const branchA = new BankBranch('Mandela Square',50067);
+ console.log(`Branch Name: ${branchA.getBranchInfo()} 
+Branch Code: ${branchA.getBranchCode()}`);
+ console.log("----------------------------------")
+ const branchB = new BankBranch('Suncity',48907);
+ console.log(`Branch Name: ${branchB.getBranchInfo()} 
+Branch Code: ${branchB.getBranchCode()}`);
+
+//check if they reference the dsame
+
 // 3. In the `BankBranch` class:
 //    - Create a constructor that takes `branchInfo` as a parameter.
 //    - Inside the constructor, check if the `bankBranchInstance` variable is null (indicating no instance exists).
