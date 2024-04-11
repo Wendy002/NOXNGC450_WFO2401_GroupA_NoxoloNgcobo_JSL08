@@ -12,6 +12,10 @@ class BankBranch {
         return bankBranchInstance;
 
     } // end of step 3
+    //step 4
+    getBranchInfo(){
+        return this.branchInfo;
+    } // end of step 4
 
 
 
